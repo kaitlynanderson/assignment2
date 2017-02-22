@@ -1,0 +1,26 @@
+body {
+  background: white;
+  font-family: monospace;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+  flex: auto;
+}
+
+form {
+  width: auto;
+  padding: 1em;
+  border: .5em solid black;
+  display: inline-block;
+  text-align: left;
+  float: center;
+}
+
+.button {
+  text-align: center;
+}
+
+
+input:focus {
+  border: 2px solid blue;
+}
